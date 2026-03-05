@@ -48,7 +48,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-    color: #6030b1;
+    background-color: #6030b1;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
