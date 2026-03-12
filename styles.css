@@ -24,6 +24,10 @@ p {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+}
+
 li{
     list-style-type: none;
 }
@@ -305,11 +309,32 @@ footer {
     background-color: #F7E3FA;
 }
 
+.footer__logo {
+    margin-bottom: 20px;
+}
+
+.footer__social--list {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
 .footer__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 8% 0;
 }
 
 .footer__logo--img {
     width: 400px;
     height: 400px;
+}
+
+.footer__social--link,
+.footer__copyright {
+    color: #fff
 }
