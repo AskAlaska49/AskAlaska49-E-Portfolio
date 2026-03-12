@@ -298,3 +298,18 @@ padding-top: 8px;
     text-align: left;
     color: #fff;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #F7E3FA;
+}
+
+.footer__row {
+    padding: 8% 0;
+}
+
+.footer__logo--img {
+    width: 400px;
+    height: 400px;
+}
