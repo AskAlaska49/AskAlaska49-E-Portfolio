@@ -172,7 +172,7 @@ padding-top: 8px;
     transform: all 300ms;
 }
 
-.language:hover .language__img{
+.language:hover .language__img {
     filter: brightness(80%);
     opacity: 0.86;
     transform: scale(0.9);
@@ -192,7 +192,7 @@ padding-top: 8px;
     padding: 25px 16px;
 }
 
-.language__list {
+.languages__list {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -211,3 +211,15 @@ padding-top: 8px;
     transform: scale(1);
     opacity: 1;
 }
+
+/* PROJECTS */
+
+.project__img {
+    width: 100%;
+    }
+
+.project__wrapper {
+box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+border-radius: 20px;
+overflow: hidden;
+} 
