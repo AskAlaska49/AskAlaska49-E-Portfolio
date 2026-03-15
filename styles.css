@@ -416,6 +416,10 @@ footer {
     padding: 8% 0;
 }
 
+.footer__logo {
+    margin-bottom: 20px;
+}
+
 .footer__logo--img {
     width: 80px;
     height: 80px;
@@ -441,8 +445,7 @@ footer {
     position: relative;
 }
 
-.footer__anchor:hover 
-.footer__logo--popper {
+.footer__anchor:hover .footer__logo--popper {
     opacity: 1;
     transform: translateX(60px);
 }
